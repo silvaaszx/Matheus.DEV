@@ -1,4 +1,4 @@
-# Matheys.DEV
+# Matheus.DEV
 
 Portfólio pessoal — Matheus Silva (Next.js 15).
 
