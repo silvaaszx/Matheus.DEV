@@ -375,8 +375,8 @@ export const PROJECTS: IProject[] = [
     `,
         role: `Planejamento do produto, desenvolvimento mobile e modelagem de fluxos centrados em localização e descoberta contextual.`,
         techStack: ['Swift', 'SwiftUI', 'MapKit', 'CoreLocation', 'MVVM', 'iOS'],
-        thumbnail: '/projects/thumbnail/spotdrop.png',
-        longThumbnail: '/projects/long/spotdrop.png',
+        thumbnail: '/projects/icons/spotdrop.jpeg',
+        longThumbnail: '/projects/icons/spotdrop.jpeg',
         images: ['/projects/images/spotdrop-1.png'],
     },
 ];
