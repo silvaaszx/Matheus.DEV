@@ -165,6 +165,136 @@ export const PROJECTS: IProject[] = [
         longThumbnail: '/projects/long/scout.jpeg',
         images: ['/projects/images/scout-1.jpeg'],
     },
+    {
+        title: 'StudySnap',
+        slug: 'studysnap',
+        year: 2026,
+        description: `
+      App de estudos com foco em captura rápida de conteúdo e transformação de materiais em revisões inteligentes. O projeto foi pensado para reduzir o tempo gasto organizando anotações e aumentar a eficiência da aprendizagem com uma experiência mobile fluida e orientada à produtividade.
+    `,
+        role: `Idealização do produto, desenvolvimento mobile, arquitetura do app, integração de recursos inteligentes e refinamento de UX para fluxo de estudo rápido.`,
+        techStack: ['Swift', 'SwiftUI', 'MVVM', 'OCR', 'AI Integration', 'App Store Connect'],
+        thumbnail: '/projects/thumbnail/studysnap.png',
+        longThumbnail: '/projects/long/studysnap.png',
+        images: ['/projects/images/studysnap-1.png'],
+    },
+    {
+        title: 'Liber Intercambio',
+        slug: 'liber-intercambio',
+        year: 2026,
+        description: `
+      Aplicativo criado para centralizar informações sobre intercâmbio, universidades, bolsas de estudo, documentação e custos em uma única experiência mobile. Também utiliza inteligência artificial para recomendar universidades com base nas preferências do usuário e gerar checklists personalizados conforme o país de destino.
+    `,
+        role: `iOS Developer em projeto colaborativo na Apple Developer Academy, atuando na construção do produto, desenvolvimento da interface, implementação de funcionalidades e entrega da solução junto ao time.`,
+        techStack: ['Swift', 'SwiftUI', 'UIKit', 'iOS', 'AI Integration', 'Clean Architecture'],
+        thumbnail: '/projects/thumbnail/liber-intercambio.png',
+        longThumbnail: '/projects/long/liber-intercambio.png',
+        images: ['/projects/images/liber-intercambio-1.png'],
+    },
+    {
+        title: 'Jarvis PersonalAssistantAI',
+        slug: 'jarvis-personal-assistant',
+        year: 2026,
+        description: `
+      Assistente pessoal com IA projetado para centralizar tarefas, respostas contextuais e automações do dia a dia em uma interface mobile. O foco do projeto é combinar produtividade, rapidez de interação e experiência conversacional natural em um produto útil para rotinas pessoais e profissionais.
+    `,
+        role: `Concepção do produto, desenvolvimento mobile, arquitetura da solução e integração com recursos de inteligência artificial para assistência contextual.`,
+        techStack: ['Swift', 'SwiftUI', 'AI Integration', 'App Intents', 'Siri Shortcuts', 'MVVM'],
+        thumbnail: '/projects/thumbnail/jarvis.png',
+        longThumbnail: '/projects/long/jarvis.png',
+        images: ['/projects/images/jarvis-1.png'],
+    },
+    {
+        title: 'Certo ou Errado',
+        slug: 'certo-ou-errado',
+        year: 2026,
+        description: `
+      Aplicativo mobile com proposta interativa e dinâmica para desafios de validação, quiz ou tomada rápida de decisão. O projeto foi desenhado para entregar uma experiência leve, intuitiva e gamificada, com foco em engajamento e responsividade.
+    `,
+        role: `Desenvolvimento do app, estruturação de arquitetura, modelagem de fluxo de jogo/interação e implementação da experiência mobile.`,
+        techStack: ['Swift', 'SwiftUI', 'UIKit', 'MVVM', 'State Management', 'iOS'],
+        thumbnail: '/projects/thumbnail/certo-ou-errado.png',
+        longThumbnail: '/projects/long/certo-ou-errado.png',
+        images: ['/projects/images/certo-ou-errado-1.png'],
+    },
+    {
+        title: 'PixelHunter AI',
+        slug: 'pixelhunter-ai',
+        year: 2026,
+        description: `
+      Aplicativo com recursos de inteligência artificial voltado para análise, identificação ou geração assistida de conteúdo visual. O projeto explora IA aplicada a imagem com foco em praticidade, velocidade de processamento e experiência mobile moderna.
+    `,
+        role: `Definição do produto, desenvolvimento mobile e integração de funcionalidades inteligentes relacionadas a processamento visual.`,
+        techStack: ['Swift', 'SwiftUI', 'AI Integration', 'Computer Vision', 'OCR', 'iOS'],
+        thumbnail: '/projects/thumbnail/pixelhunter.png',
+        longThumbnail: '/projects/long/pixelhunter.png',
+        images: ['/projects/images/pixelhunter-1.png'],
+    },
+    {
+        title: 'VetApp',
+        slug: 'vetapp',
+        year: 2026,
+        description: `
+      Assistente completo de saúde para tutores de pets, com IA no centro da experiência. O app oferece assistente de saúde 24h, OCR para leitura de carteirinha de vacina, histórico médico, lembretes inteligentes, geração de relatórios em PDF e mapa com clínicas e pet shops próximos.
+    `,
+        role: `Idealização, desenvolvimento do produto, implementação mobile, integração de OCR e IA generativa, além de definição de fluxos de UX voltados a situações reais de cuidado pet.`,
+        techStack: ['Swift', 'SwiftUI', 'OCR', 'AI Integration', 'PDFKit', 'MapKit', 'iOS'],
+        thumbnail: '/projects/thumbnail/vetapp.png',
+        longThumbnail: '/projects/long/vetapp.png',
+        images: ['/projects/images/vetapp-1.png'],
+    },
+    {
+        title: 'SquadMatch',
+        slug: 'squadmatch',
+        year: 2026,
+        description: `
+      Aplicativo voltado para organização de partidas de futebol, conectando jogadores, times e disponibilidade em uma experiência mobile prática. O projeto nasce como solução para facilitar coordenação de jogos, formação de squads e gestão de participação.
+    `,
+        role: `Criação e desenvolvimento do produto, com foco em experiência mobile, organização de fluxo social e construção de uma solução funcional para uso recorrente.`,
+        techStack: ['Swift', 'SwiftUI', 'Firebase', 'Cloud Firestore', 'MVVM', 'iOS'],
+        thumbnail: '/projects/thumbnail/squadmatch.png',
+        longThumbnail: '/projects/long/squadmatch.png',
+        images: ['/projects/images/squadmatch-1.png'],
+    },
+    {
+        title: 'PsiManager',
+        slug: 'psimanager',
+        year: 2026,
+        description: `
+      Aplicativo para gestão de consultórios de psicologia, criado para centralizar rotinas operacionais e melhorar a produtividade de profissionais da área. O app integra organização de informações, recursos inteligentes, geração de PDF e automações voltadas ao contexto clínico.
+    `,
+        role: `Desenvolvimento completo do produto, incluindo arquitetura, interface, integração com IA, geração de documentos e automações do ecossistema Apple.`,
+        techStack: ['SwiftUI', 'SwiftData', 'Google Gemini API', 'PDFKit', 'Siri Shortcuts', 'App Intents'],
+        thumbnail: '/projects/thumbnail/psimanager.png',
+        longThumbnail: '/projects/long/psimanager.png',
+        images: ['/projects/images/psimanager-1.png'],
+    },
+    {
+        title: 'SoundByte',
+        slug: 'soundbyte',
+        year: 2026,
+        description: `
+      Aplicativo mobile focado em consumo rápido de conteúdo em áudio, insights curtos ou experiências multimídia otimizadas para retenção e praticidade. O projeto prioriza fluidez, interface moderna e interação simples para consumo recorrente.
+    `,
+        role: `Concepção do produto, desenvolvimento do app e definição da experiência de uso com foco em performance e usabilidade.`,
+        techStack: ['Swift', 'SwiftUI', 'AVFoundation', 'MVVM', 'iOS', 'App Store Connect'],
+        thumbnail: '/projects/thumbnail/soundbyte.png',
+        longThumbnail: '/projects/long/soundbyte.png',
+        images: ['/projects/images/soundbyte-1.png'],
+    },
+    {
+        title: 'SpotDrop',
+        slug: 'spotdrop',
+        year: 2026,
+        description: `
+      Aplicativo com proposta de descoberta, compartilhamento ou organização baseada em localização, pontos de interesse ou recomendações contextuais. A solução foi pensada para entregar uma experiência rápida, intuitiva e útil para interação com lugares ou oportunidades ao redor.
+    `,
+        role: `Planejamento do produto, desenvolvimento mobile e modelagem de fluxos centrados em localização e descoberta contextual.`,
+        techStack: ['Swift', 'SwiftUI', 'MapKit', 'CoreLocation', 'MVVM', 'iOS'],
+        thumbnail: '/projects/thumbnail/spotdrop.png',
+        longThumbnail: '/projects/long/spotdrop.png',
+        images: ['/projects/images/spotdrop-1.png'],
+    },
 ];
 
 export const MY_EXPERIENCE = [
