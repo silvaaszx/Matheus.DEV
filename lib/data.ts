@@ -398,7 +398,7 @@ export const MY_EXPERIENCE = [
         duration: 'Out 2025 – Atual',
     },
     {
-        title: 'Desenvolvedor SQL e Dados',
+        title: 'Desenvolvedor FullStack',
         company: 'Caixa Seguridade',
         duration: 'Out 2024 – Jun 2025',
     },
